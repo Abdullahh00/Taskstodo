@@ -1,0 +1,102 @@
+
+.navbar {
+    background-color: maroon;
+    padding: 10px 0;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.navbar li {
+    margin: 0 20px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+h3{
+    color: #000;
+}
+        h2{
+            color: #000;
+        }
+    
+     body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .container {
+            margin-top: 20px;
+            display: flex;
+            
+        }
+
+        
+        .left-box {
+            flex: 3; 
+            background-color: #f0efef;
+            color: white;
+            padding: 30px;
+            
+            
+        }
+
+        .newbox{
+            color: #a6df69;
+            background-color: #d2ca30;
+            padding: 05px;
+
+        }
+        
+        .right-boxes {
+            display: flex;
+            flex-direction: column; 
+            flex: 2; 
+            
+           
+        }
+
+    
+        .right-box {
+            background-color: #f0efef;
+            padding: 20px;
+            margin: 10px;
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        p{
+            color: #000;
+            display: inline;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .calendar-icon {
+            width: 24px; 
+            height: 24px; 
+            margin-right: 10px; 
+        }
